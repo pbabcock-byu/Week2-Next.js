@@ -79,7 +79,9 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
                   <p className="mt-2 text-sm text-red-500" key={error}>
                     {error}
                   </p>
-                ))}
+                ))}Node.js variable that is not available in the Vercel (or Next.js) serverless environment by default, especially in ESM (ECMAScript Module) or edge runtimes.
+                
+                
             </div>
           </div>
         </div>

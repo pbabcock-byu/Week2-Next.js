@@ -1,16 +1,15 @@
 'use client';
 
-
 import {
   UserGroupIcon,
   HomeIcon,
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
-// import the Link component from next/link  replace the <a> tag with <Link>:
 import Link from 'next/link';
-// pattern is to show an active link
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
+
+
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
